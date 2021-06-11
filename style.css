@@ -5,3 +5,11 @@ body{
   width: 80%;
   margin: auto;
 }
+#header{
+  background:url(/assets/backgrounds/landing.jpg) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100% 100%;
+}
