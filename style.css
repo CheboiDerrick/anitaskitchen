@@ -8,7 +8,7 @@ body{
 }
 
 #header{
-  background:url(/assets/backgrounds/landing.jpg) no-repeat;
+  background:url(./assets/backgrounds/landing.jpg) no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,13 +63,13 @@ body{
 }
 
 #breakfast{
-  background-image: url(/assets/foodtop/breakfast.jpg);
+  background-image: url(./assets/foodtop/breakfast.jpg);
 }
 
 #lunch{
-  background-image: url(/assets/foodtop/lunch.jpg);
+  background-image: url(./assets/foodtop/lunch.jpg);
 }
 
 #dinner{
-  background-image: url(/assets/foodtop/dinner.jpg);
+  background-image: url(./assets/foodtop/dinner.jpg);
 }
