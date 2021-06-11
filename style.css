@@ -7,7 +7,7 @@ body{
   margin: auto;
 }
 
-#header{
+.header{
   background:url('./assets/backgrounds/landing.jpg') no-repeat;
   display: flex;
   justify-content: center;
@@ -15,10 +15,19 @@ body{
   flex-direction: column;
   background-size: 100% 100%;
   color: white;
-  font-size: xx-large;
+  font-size: 48px;
+  font-family: 'Mate', serif;
+  height: 550px;
+  font-weight: 100;
 }
 
-#header p{
+#icon{
+  position:absolute;
+  left:15%;
+  top:10%;
+}
+
+.header p{
   margin: 5px;
 }
 
