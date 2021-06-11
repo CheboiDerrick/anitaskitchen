@@ -21,7 +21,46 @@ body{
   display: flex;
 }
 
+.meals{
+  width: 25%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
+  display: flex;
+  color: white;
+  font-style: italic;
+  font-size: xx-large;
+}
 
+.happy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  width: 25%;
+  height: 200px;
+  text-align: center;
+}
+
+.happy #white{
+  color: black;
+  background-color: whitesmoke;
+}
+
+.happy #orange{
+  color: white;
+  background-color: #f15a29;
+}
+
+.happy div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
 
 #breakfast{
   background-image: url(/assets/foodtop/breakfast.jpg);
