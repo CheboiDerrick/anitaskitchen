@@ -8,13 +8,18 @@ body{
 }
 
 #header{
-  background:url(./assets/backgrounds/landing.jpg) no-repeat;
+  background:url('./assets/backgrounds/landing.jpg') no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-size: 100% 100%;
   color: white;
+  font-size: xx-large;
+}
+
+#header p{
+  margin: 5px;
 }
 
 .sub-head{
@@ -63,13 +68,18 @@ body{
 }
 
 #breakfast{
-  background-image: url(./assets/foodtop/breakfast.jpg);
+  background-image: url('./assets/foodtop/breakfast.jpg');
 }
 
 #lunch{
-  background-image: url(./assets/foodtop/lunch.jpg);
+  background-image: url('./assets/foodtop/lunch.jpg');
 }
 
 #dinner{
-  background-image: url(./assets/foodtop/dinner.jpg);
+  background-image: url('./assets/foodtop/dinner.jpg');
+}
+
+#lunch:hover{
+  background-color: whitesmoke;
+  opacity: 0.4;
 }
