@@ -13,3 +13,6 @@ body{
   flex-direction: column;
   background-size: 100% 100%;
 }
+.sub-head{
+  display: flex;
+}
