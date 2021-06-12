@@ -21,7 +21,6 @@ body{
   font-weight: 100;
 }
 
-}
 #icon{
   position:absolute;
   left:5%;
@@ -139,14 +138,14 @@ body{
   float: left; */
   box-shadow: 0px 0px 5px;
   padding: 20px;
+  overflow: hidden;
 }
 
-.drinks img{
-  max-width: 100%;
-  max-height: 100%;
+.drinks>img{
+  width: 100%;
+  height: auto;
   display: block;
 }
-
 
 .fastfoodtxt{
   width: 50%;
@@ -166,3 +165,23 @@ button{
   padding: 10px;
   border-radius: 2px;
 }
+footer{
+  background-color: #f15a29;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} 
+  footer p{
+    margin: 10px;
+
+  }
+
+  #menu{
+   font-size: 54px;
+  }
+
+  footer p img{
+    margin-left: 10px;
+  } 
