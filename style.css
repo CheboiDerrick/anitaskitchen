@@ -2,7 +2,7 @@
   background-color: black;
 } */
 body{
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
@@ -180,10 +180,10 @@ footer{
   align-items: center;
   color: white;
   height: 300px;
+  width: 100%;
 }
   footer p{
     margin: 10px;
-
   }
 
   #menu{
@@ -193,3 +193,8 @@ footer{
   footer p img{
     margin-left: 10px;
   } 
+
+button:hover{
+  background-color: #f15a29;
+  color: white;
+}
