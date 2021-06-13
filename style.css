@@ -199,49 +199,55 @@ button:hover{
   color: white;
 }
 
-.menubg{
+.mainmenu{
   background-image: url('./assets/backgrounds/foodsBg.jpg');
-  justify-content: center;
-  align-items: center;
 }
-
-.menutab{
+.maintabs {
   display: flex;
   flex-wrap: wrap;
-  max-width: 80%;
-  height: 80%;
-  margin: auto;
-  background-color: white;
+  width: 80%;
+  margin: 50px auto;
   padding: 25px;
 }
-.menutab input[type="radio"] {
+.maintabs input[type="radio"] {
   display: none;
 }
-
-.tab{
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
-  align-items: center;
-}
-.mytabs label{
-  padding: 25px;
-  background: gray;
+.maintabs label {
+  width: 25%;
+  padding: 10px 0 10px 0;
+  background: #e2e2e2;
   font-weight: bold;
+  text-align: center;
 }
 
-.menutab .tab{
-  width: 75%;
+.maintabs .tab {
+  width: 100%;
   padding: 20px;
-  background-color: white;
+  background: #fff;
   order: 1;
-  /* display: none; */
+  display: none;
+}
+.maintabs .tab h2 {
+  font-size: 3em;
 }
 
-.menutab input [type="radio"]:checked + label + .tab{
+.maintabs input[type='radio']:checked + label + .tab {
   display: block;
 }
 
+.maintabs input[type="radio"]:checked + label {
+  background: #fff;
+  color: #f15a29;
+}
+
+#mainslide div {
+float: left;
+margin-left: 20px;
+text-align: center;
+}
+ #mainslide p{
+   color: #f15a29;
+ }
 .customers {
   display: flex;
   width:60%;
