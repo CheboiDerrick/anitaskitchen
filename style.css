@@ -241,3 +241,29 @@ button:hover{
 .menutab input [type="radio"]:checked + label + .tab{
   display: block;
 }
+
+.customers {
+  display: flex;
+  width:60%;
+  margin:20px auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px;
+}
+
+.about {
+  flex: 100%;
+  text-align: center;
+  padding: 20px;
+}
+  .about h4, h5, p{
+    margin: 5px;
+  }
+
+  .about h4{
+    color: #f15a29;
+  }
+  #aboutmenu{
+    border-left: solid gray 1px;
+  }
