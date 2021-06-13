@@ -2,6 +2,8 @@
 
 This is a HTML and CSS landing page of a restaraunts website.
 
+By Cheboi Derrick
+
 ## Installation
 
 The web page ca be viewed in deployment at:

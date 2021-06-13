@@ -90,6 +90,7 @@ body{
   background-color: whitesmoke;
   opacity: 0.4;
 }
+/* This is the main body section */
 
 .fooddrinks{
   width: 80%;
@@ -109,15 +110,11 @@ body{
   height: 50%;
   margin: auto;
   border: 20px;
-  /* justify-content: space-evenly; */
 }
 
 .fastfood{
   flex-direction: column;
   height: 50%;
-  /* justify-content: space-between;
-  align-items: center;
-  float: left; */
   box-shadow: 0px 0px 5px;
   padding: 20px;
 }
@@ -132,8 +129,6 @@ body{
   display: flex;
   flex-direction: row;
   width: 50%;
-  /* align-items: center;
-  float: left; */
   box-shadow: 0px 0px 5px;
   padding: 20px;
   overflow: hidden;
@@ -147,8 +142,7 @@ body{
 
 .fastfoodtxt{
   width: 50%;
-  margin-left: 20px;
-  
+  margin-left: 20px; 
 }
 
 .drinkstxt{
@@ -196,6 +190,7 @@ footer{
     background-color: #f15a29;
     margin-left: 10px;
   }
+  /* This is the footer section */
   footer p{
     margin: 10px;
   }
@@ -213,6 +208,7 @@ button:hover{
   color: white;
 }
 
+/* The main menu tab menus */
 .mainmenu{
   background-image: url('./assets/backgrounds/foodsBg.jpg');
 }
@@ -260,9 +256,13 @@ float: left;
 margin-left: 20px;
 text-align: center;
 }
+
  #mainslide p{
    color: #f15a29;
+   font-weight: bold;
  }
+
+ /* The cutomer review and about menu section */
 .customers {
   display: flex;
   width:60%;
@@ -287,4 +287,7 @@ text-align: center;
   }
   #aboutmenu{
     border-left: solid gray 1px;
+  }
+  #sub{
+    font-weight: bold;
   }
