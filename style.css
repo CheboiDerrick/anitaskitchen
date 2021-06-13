@@ -1,9 +1,8 @@
-/* html{
-  background-color: black;
-} */
+/* font-family: 'Roboto Slab', serif; */
 body{
   width: 80%;
   margin: auto;
+  font-family: 'Roboto Slab', serif;
 }
 
 .header{
@@ -22,7 +21,7 @@ body{
 
 #icon{
   position:absolute;
-  left:5%;
+  left:12%;
   top:10%;
 }
 
@@ -181,7 +180,22 @@ footer{
   color: white;
   height: 300px;
   width: 100%;
-}
+} 
+
+  #sub{
+    font-size: bold;
+  }
+  input{
+    background-color: whitesmoke;
+    opacity: 0.4;
+    padding: 10px;
+  }
+
+  #subscribe{
+    color: white;
+    background-color: #f15a29;
+    margin-left: 10px;
+  }
   footer p{
     margin: 10px;
   }
@@ -213,11 +227,12 @@ button:hover{
   display: none;
 }
 .maintabs label {
-  width: 25%;
+  width: 24.85%;
   padding: 10px 0 10px 0;
   background: #e2e2e2;
   font-weight: bold;
   text-align: center;
+  border-left: solid gray 1px;
 }
 
 .maintabs .tab {
