@@ -198,3 +198,46 @@ button:hover{
   background-color: #f15a29;
   color: white;
 }
+
+.menubg{
+  background-image: url('./assets/backgrounds/foodsBg.jpg');
+  justify-content: center;
+  align-items: center;
+}
+
+.menutab{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  height: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+}
+.menutab input[type="radio"] {
+  display: none;
+}
+
+.tab{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+}
+.mytabs label{
+  padding: 25px;
+  background: gray;
+  font-weight: bold;
+}
+
+.menutab .tab{
+  width: 75%;
+  padding: 20px;
+  background-color: white;
+  order: 1;
+  /* display: none; */
+}
+
+.menutab input [type="radio"]:checked + label + .tab{
+  display: block;
+}
