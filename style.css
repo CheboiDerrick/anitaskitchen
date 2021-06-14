@@ -20,7 +20,7 @@ body{
 
 #icon{
   position:absolute;
-  left:12%;
+  left:5%;
   top:10%;
 }
 
@@ -213,7 +213,7 @@ button:hover{
 .maintabs {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 64%;
   margin: 50px auto;
   padding: 25px;
 }
