@@ -1,6 +1,6 @@
 /* font-family: 'Roboto Slab', serif; */
 body{
-  width: 80%;
+  width: 100%;
   margin: auto;
   font-family: 'Roboto Slab', serif;
 }
@@ -126,8 +126,7 @@ body{
 
 .drinks{
   display: flex;
-  flex-direction: row;
-  width: 50%;
+  width: fit-content;
   box-shadow: 0px 0px 5px;
   padding: 20px;
   overflow: hidden;
